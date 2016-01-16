@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 155ce01a106aaf848b63aef763959025
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - soil: {fileID: 100000, guid: 115fced9dd636ba4d819cd1c6b4dfe42, type: 2}
+  - sea: {fileID: 100000, guid: 94e51b5d226d59c4787513083487b9d3, type: 2}
+  - rocky: {fileID: 100000, guid: 139593c5ec236214681343b8ffd83e26, type: 2}
+  - sand: {fileID: 100000, guid: e861659704626e14398bc8b144b4e92c, type: 2}
+  - forest: {fileID: 100000, guid: 3c508e8023b673b468dc634372705a6a, type: 2}
+  - tree: {instanceID: 0}
+  - berry: {instanceID: 0}
+  - stone: {instanceID: 0}
+  - drybush: {fileID: 100000, guid: dcf208a1d6a62ad4295f64b8f4f5ca75, type: 2}
+  - flint: {fileID: 100000, guid: 8e563ba1e2117c5449d13f4979a4f380, type: 2}
+  - moai: {instanceID: 0}
+  - aaa: {fileID: 2800000, guid: 5ecd2dc95fa73de438c5cfe22f86cfa3, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

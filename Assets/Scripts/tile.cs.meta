@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: abf32fe1c9f3e94428cf270229c0e4fc
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - drawPos: {fileID: 100000, guid: db9a3d6502dd3a44aa25d8d8d4adc67a, type: 2}
+  - emptySlot: {fileID: 100002, guid: db31c3875fe3b624d8ef410f2361e214, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

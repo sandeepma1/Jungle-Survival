@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{C637DDD6-AC62-3E2D-C69F-BC9F9B701AAC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_0;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\AndroidImmersiveMode\Scripts\ImmersiveModeEnabler.cs" />
+     <Compile Include="Assets\Scripts\AI\AI.cs" />
+     <Compile Include="Assets\Scripts\AI\AIWander.cs" />
+     <Compile Include="Assets\Scripts\AI\AI_SpiderDen.cs" />
+     <Compile Include="Assets\Scripts\AI\Pickables.cs" />
+     <Compile Include="Assets\Scripts\AI\spiders.cs" />
+     <Compile Include="Assets\Scripts\AnimateTiledTexture.cs" />
+     <Compile Include="Assets\Scripts\FastLoad.cs" />
+     <Compile Include="Assets\Scripts\GameEventManager.cs" />
+     <Compile Include="Assets\Scripts\InputManager\InputManager.cs" />
+     <Compile Include="Assets\Scripts\InventorySystem\InventoryManager.cs" />
+     <Compile Include="Assets\Scripts\InventorySystem\SlotClass.cs" />
+     <Compile Include="Assets\Scripts\InventorySystem\V2\CraftSlotScript.cs" />
+     <Compile Include="Assets\Scripts\InventorySystem\V2\Craftable.cs" />
+     <Compile Include="Assets\Scripts\InventorySystem\V2\CraftableDatabase.cs" />
+     <Compile Include="Assets\Scripts\InventorySystem\V2\Crafting.cs" />
+     <Compile Include="Assets\Scripts\InventorySystem\V2\Inventory.cs" />
+     <Compile Include="Assets\Scripts\InventorySystem\V2\Item.cs" />
+     <Compile Include="Assets\Scripts\InventorySystem\V2\ItemDatabase.cs" />
+     <Compile Include="Assets\Scripts\InventorySystem\V2\SlotScript.cs" />
+     <Compile Include="Assets\Scripts\InventorySystem\more.cs" />
+     <Compile Include="Assets\Scripts\ItemManager\ItemManager.cs" />
+     <Compile Include="Assets\Scripts\ItemManager\ItemStructure.cs" />
+     <Compile Include="Assets\Scripts\MapGenerator\main.cs" />
+     <Compile Include="Assets\Scripts\NotificationSystem\HelpText.cs" />
+     <Compile Include="Assets\Scripts\NotificationSystem\PlayerLog_Stack.cs" />
+     <Compile Include="Assets\Scripts\NotificationSystem\ProgressBar.cs" />
+     <Compile Include="Assets\Scripts\NotificationSystem\messageSystem.cs" />
+     <Compile Include="Assets\Scripts\Other\AnimatedTextureUV.cs" />
+     <Compile Include="Assets\Scripts\Other\Bill.cs" />
+     <Compile Include="Assets\Scripts\Other\CameraController.cs" />
+     <Compile Include="Assets\Scripts\Other\Campfire.cs" />
+     <Compile Include="Assets\Scripts\Other\DayNightController.cs" />
+     <Compile Include="Assets\Scripts\Other\ExampleClass.cs" />
+     <Compile Include="Assets\Scripts\Other\HealthMeter.cs" />
+     <Compile Include="Assets\Scripts\Other\HideAndroidButtons.cs" />
+     <Compile Include="Assets\Scripts\Other\HungerMeter.cs" />
+     <Compile Include="Assets\Scripts\Other\Joystic\JoyStick.cs" />
+     <Compile Include="Assets\Scripts\Other\LookAtCamera.cs" />
+     <Compile Include="Assets\Scripts\Other\Manager.cs" />
+     <Compile Include="Assets\Scripts\Other\MyRayCast.cs" />
+     <Compile Include="Assets\Scripts\Other\ObjectPool.cs" />
+     <Compile Include="Assets\Scripts\Other\Pathfinding\ClickToMove_old.cs" />
+     <Compile Include="Assets\Scripts\Other\RotateDayNight.cs" />
+     <Compile Include="Assets\Scripts\Other\SelfDestruct.cs" />
+     <Compile Include="Assets\Scripts\Other\TestScripts\Streamer.cs" />
+     <Compile Include="Assets\Scripts\Other\TextOutline.cs" />
+     <Compile Include="Assets\Scripts\Other\TouchZoom.cs" />
+     <Compile Include="Assets\Scripts\Other\WaitingTime.cs" />
+     <Compile Include="Assets\Scripts\Other\moveOnMouseClick.cs" />
+     <Compile Include="Assets\Scripts\Other\optimize.cs" />
+     <Compile Include="Assets\Scripts\Other\playerStats.cs" />
+     <Compile Include="Assets\Scripts\Other\randomTrees.cs" />
+     <Compile Include="Assets\Scripts\Other\terrainScript\FlyCamera.cs" />
+     <Compile Include="Assets\Scripts\Other\terrainScript\SimplexNoise.cs" />
+     <Compile Include="Assets\Scripts\Other\terrainScript\TerrainControl.cs" />
+     <Compile Include="Assets\Scripts\Other\terrainScript\TerrainGenerator.cs" />
+     <Compile Include="Assets\Scripts\Other\terrainScript\perlinNoiseTest.cs" />
+     <Compile Include="Assets\Scripts\Player\ClickToMove.cs" />
+     <Compile Include="Assets\Scripts\Player\EpicCitadelControl.cs" />
+     <Compile Include="Assets\Scripts\Player\GridMove.cs" />
+     <Compile Include="Assets\Scripts\Player\Player.cs" />
+     <Compile Include="Assets\Scripts\Plugin\LeanTween.cs" />
+     <Compile Include="Assets\Scripts\SortingLayerExposer.cs" />
+     <Compile Include="Assets\Scripts\tile.cs" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Transparent Vertex Color.shader" />
+     <None Include="Assets\Shaders\UnlitAlpha.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Detail.shader" />
+     <None Include="Assets\Shaders\OutlinedDiffuse.shader" />
+     <None Include="Assets\Shaders\Shield.shader" />
+     <None Include="Assets\Textures\Fonts\KGFonts-TOU.txt" />
+     <None Include="Assets\Shaders\RimDiffuse.shader" />
+     <None Include="Assets\Shaders\AlphaNormalMappedReflection.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Reflective.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Particles Additive Culled.shader" />
+     <None Include="Assets\AndroidImmersiveMode\Instructions.txt" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Vertex Colored.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Only.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap AlphaTest.shader" />
+     <None Include="Assets\Shaders\Translucent.shader" />
+     <None Include="Assets\Shaders\AlphaSelfIllum.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

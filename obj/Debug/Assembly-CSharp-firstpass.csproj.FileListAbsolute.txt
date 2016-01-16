@@ -1,0 +1,11 @@
+C:\Users\Sandy\Documents\PerlinNoiseTest\Temp\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Sandy\Documents\PerlinNoiseTest\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\Sandy\Documents\PerlinNoiseTest\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Sandy\Documents\PerlinNoiseTest\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Sandy\Documents\PerlinNoiseTest\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Sandy\Documents\PerlinNoiseTest\Temp\bin\Debug\nunit.framework.dll
+C:\Users\Sandy\Documents\PerlinNoiseTest\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Sandy\Documents\PerlinNoiseTest\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Sandy\Documents\PerlinNoiseTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Sandy\Documents\PerlinNoiseTest\obj\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Sandy\Documents\PerlinNoiseTest\obj\Debug\Assembly-CSharp-firstpass.pdb
