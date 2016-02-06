@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C637DDD6-AC62-3E2D-C69F-BC9F9B701AAC}</ProjectGuid>
+    <ProjectGuid>{E17A3C35-DE1B-317E-3862-26058F070714}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -45,14 +45,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\AndroidImmersiveMode\Scripts\ImmersiveModeEnabler.cs" />
      <Compile Include="Assets\Scripts\AI\AI.cs" />
      <Compile Include="Assets\Scripts\AI\AIWander.cs" />
      <Compile Include="Assets\Scripts\AI\AI_SpiderDen.cs" />
      <Compile Include="Assets\Scripts\AI\Pickables.cs" />
      <Compile Include="Assets\Scripts\AI\spiders.cs" />
      <Compile Include="Assets\Scripts\AnimateTiledTexture.cs" />
-     <Compile Include="Assets\Scripts\FastLoad.cs" />
      <Compile Include="Assets\Scripts\GameEventManager.cs" />
      <Compile Include="Assets\Scripts\InputManager\InputManager.cs" />
      <Compile Include="Assets\Scripts\InventorySystem\InventoryManager.cs" />
@@ -68,6 +66,8 @@
      <Compile Include="Assets\Scripts\InventorySystem\more.cs" />
      <Compile Include="Assets\Scripts\ItemManager\ItemManager.cs" />
      <Compile Include="Assets\Scripts\ItemManager\ItemStructure.cs" />
+     <Compile Include="Assets\Scripts\LevelLoad\FastLoad.cs" />
+     <Compile Include="Assets\Scripts\LevelLoad\LoadMainLevel.cs" />
      <Compile Include="Assets\Scripts\MapGenerator\main.cs" />
      <Compile Include="Assets\Scripts\NotificationSystem\HelpText.cs" />
      <Compile Include="Assets\Scripts\NotificationSystem\PlayerLog_Stack.cs" />
@@ -122,7 +122,6 @@
      <None Include="Assets\Shaders\AlphaNormalMappedReflection.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Reflective.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Particles Additive Culled.shader" />
-     <None Include="Assets\AndroidImmersiveMode\Instructions.txt" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Vertex Colored.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Only.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap AlphaTest.shader" />

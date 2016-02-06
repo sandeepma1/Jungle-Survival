@@ -1,43 +1,44 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class HelpText : MonoBehaviour
 {
-
-		GameObject helptext, helpTextOutline;
-		static public string currentText, tempText;
-		static public float textTimer = 4;
-		// Use this for initialization
-		void Start ()
-		{
-				tempText = "";
-				currentText = "Survive as long as possible";
-				helptext = GameObject.Find ("HelpText");
-				helpTextOutline = GameObject.Find ("HelpTextOutline");	
-		}
+	public Text topNotification;
+	GameObject helptext, helpTextOutline;
+	static public string currentText, tempText;
+	static public float textTimer = 4;
+	// Use this for initialization
+	void Awake ()
+	{
+		print ("safsdfds");
+		tempText = "";
+		currentText = "Survive as long as possible";
+	}
 	
-		// Update is called once per frame
-		void LateUpdate ()
-		{
-				helptext.GetComponent<TextMesh> ().text = currentText;
-				helpTextOutline.GetComponent<TextMesh> ().text = currentText;
-		}
-		public static void MainNotification (string text)
-		{
-				currentText = text;
-				textTimer = 4;
-		}
-		void Update ()
-		{	
-				if (tempText != currentText) {						
-						textTimer -= Time.deltaTime;
-				}				
+	// Update is called once per frame
+	void LateUpdate ()
+	{
+		topNotification.text = currentText;
+	}
+
+	public static void MainNotification (string text)
+	{
+		currentText = text;
+		textTimer = 4;
+	}
+
+	void Update ()
+	{	
+		if (tempText != currentText) {						
+			textTimer -= Time.deltaTime;
+		}				
 				
-				//Removes Text
-				if (textTimer <= 0) {
-						textTimer = 0;
-						currentText = "";
-				}
-		
+		//Removes Text
+		if (textTimer <= 0) {
+			textTimer = 0;
+			currentText = "";
 		}
+		
+	}
 }
